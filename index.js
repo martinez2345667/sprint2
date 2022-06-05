@@ -17,7 +17,7 @@ function capturar(){
         console.log(suma)
         suma= suma + parseInt(capturar().gasto);
         console.log(suma)
-        document.getElementById("suma").innerHTML= " $" + suma;
-        document.getElementById("promedio").innerHTML= " $" + suma/Nombres.length;
+        document.getElementById("suma").innerHTML= "todos pagaron" +" $" + suma;
+        document.getElementById("promedio").innerHTML= "total a pagar" +" $" + suma/Nombres.length;
     };
     
